@@ -1,0 +1,157 @@
+.header-container {
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+@media(max-width:820px){
+  .header-container {
+    height: 10vh;
+  }
+}
+
+@media(max-width:560px){
+  .header-container {
+    height: 6.5vh;
+    border-radius: 0;
+  }
+}
+
+.logo {
+  width: 23%;
+  border-radius: 10px 0 0 0;
+}
+
+@media(max-width:820px){
+  .logo {
+    width: 35%;
+  }
+}
+
+@media(max-width:560px){
+  .logo {
+    width: 50%;
+    border-radius: 0;
+  }
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width:820px){
+  .header-contacts {
+    margin-top: -13px;
+  }
+}
+@media(max-width:560px){
+  .header-contacts {
+    flex-direction: column;
+    margin-top: 4px;
+    margin-right: 45px;
+  }
+}
+@media(max-width:380px){
+  .header-contacts {
+    flex-direction: column;
+    margin-top: 4px;
+    margin-right: 30px;
+  }
+}
+
+@media(max-width:320px){
+  .header-contacts {
+    margin-top: -8px;
+    margin-right: 10px;
+  }
+}
+
+.header-phone {
+  margin-right: 40px;
+  font-size: 24px;
+  margin-top: 12px;
+}
+@media(max-width:820px){
+  .header-phone {
+    margin-right: 30px;
+    font-size: 14px;  /* */
+    margin-top: 21px; /* 12 */
+  }
+}
+@media(max-width:680px){
+  .header-phone {
+    margin-right: 10px;
+    font-size: 14px;  /* */
+    margin-top: 22px; /* 12 */
+  }
+}
+@media(max-width:568px){
+  .header-phone {
+    margin-right: 10px;
+    font-size: 12px;  /* */
+    margin-top: 20px; /* 12 */
+  }
+}
+@media(max-width:560px){
+  .header-phone {
+    margin-right: 0px;
+    font-size: 12px;  /* */
+    margin-top: 0px; /* 12 */
+  }
+}
+@media(max-width:320px){
+  .header-phone {
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+.header-icon {
+  font-size: 24px;
+}
+
+.header-loc {
+  margin-top: 14px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+@media(max-width:820px){
+  .header-loc {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 16px;
+  }
+}
+@media(max-width:680px){
+  .header-loc {
+    font-size: 14px;
+    margin-top: 22px;
+    margin-right: 65px;
+  }
+}
+@media(max-width:568px){
+  .header-loc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 45px;
+  }
+}
+@media(max-width:560px){
+  .header-loc {
+    font-size: 12px;
+    margin-top: -8px;
+    margin-right: 0px;
+  }
+}
+
+@media(max-width:320px){
+  .header-loc {
+    margin-top: -10px;
+    font-size: 12px;
+  }
+}

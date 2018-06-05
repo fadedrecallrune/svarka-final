@@ -1,0 +1,82 @@
+.route-container {
+  height: 1100px;
+  display: flex;
+  margin: 50px 80px;
+  background-color: #fff;
+  border: 1px;
+  border-radius: 15px;
+}
+.main-route {
+  height: 1240px;
+  background-color: #fff;
+  margin: 50px 150px 70px 150px ;
+  border: 1px;
+  border-radius: 15px;
+}
+
+@media(max-width:600px){
+  .route-container {
+    flex-direction: column;
+    margin: 0 0;
+    margin-top: 50px;
+    height: 1450px;
+  }
+}
+
+.route-image {
+  height: 45%;
+  width: 48%;
+}
+
+@media(max-width:600px){
+  .route-image {
+    height: 24%;
+    width: 100%;
+  }
+}
+
+.route-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.route-name {
+  font-size: 24px;
+}
+
+.route-text {
+  font-size: 18px;
+  word-wrap: break-word;
+  
+}
+
+@media(max-width:600px){
+  .route-text {
+    font-size: 16px;
+    margin: 0px 15px;
+  }
+}
+
+.backbutton {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 7px;
+  width: 50px;
+}
+
+
+.firstTable {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+.secondTable {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
