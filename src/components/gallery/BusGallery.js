@@ -5,24 +5,24 @@ import Lightbox from 'react-images';
 
 const photos = [
   { src: 
-  'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-24_13-46-57.jpg',
+  'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-24_13-46-57.jpg',
    width: 4, height:3, size:'' },
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-24_13-49-56.jpg',
+  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-24_13-49-56.jpg',
    width:4, height:3},
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/photo_2018-05-24_13-50-27.jpg',
+  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/svarka/bus/photo_2018-05-24_13-50-27.jpg',
    width:3, height:3},
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/photo_2018-05-24_13-50-18.jpg',
+  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/svarka/bus/photo_2018-05-24_13-50-18.jpg',
    width:4, height:3},
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-25_12-22-23.jpg',
+  {src: 'https://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-25_12-22-23.jpg',
    width:3, height:3},
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/photo_2018-05-24_13-50-37.jpg',
+  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254529/svarka/bus/photo_2018-05-24_13-50-37.jpg',
    width:3, height:3},
-  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-25_12-22-11.jpg',
+  {src: 'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-25_12-22-11.jpg',
    width:3, height:3},
-  {src:'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-24_13-50-09_1.jpg',
+  {src:'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-24_13-50-09_1.jpg',
    width:4, height:3},
 
-   {src:'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/photo_2018-05-25_12-22-23.jpg',
+   {src:'http://res.cloudinary.com/dg28o9yt1/image/upload/v1527254530/svarka/bus/photo_2018-05-25_12-22-23.jpg',
    width:3, height:3}
   ]
 

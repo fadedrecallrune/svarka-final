@@ -6,17 +6,10 @@ import mail from "../../assets/em.svg";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <iframe
-        className="map"
-        title="map"
-        frameborder="0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyACaHaFmTNfvMA7eLAYBrLm1SOJt0FtVfA
-    &zoom=13&language=ru&q=Радищева 6"
-        allowfullscreen
-      />
+      
       <div className="contacts">
         <h1 className="contacts-name">Контакти</h1>
-        <hr className="contacts-hr" />
+        {/* <hr className="contacts-hr" /> */}
 
         <div className="icons">
           <h3>
@@ -71,10 +64,19 @@ const Footer = () => {
             >
               location_on
             </i>{" "}
-            перевулок Радищева 6
+            провулок Радищева 6
           </h3>
         </div>
       </div>
+
+      <iframe
+        className="map"
+        title="map"
+        frameborder="0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyACaHaFmTNfvMA7eLAYBrLm1SOJt0FtVfA
+    &zoom=13&language=ru&q=провулок Радищева 6"
+        allowfullscreen
+      />
     </div>
   );
 };

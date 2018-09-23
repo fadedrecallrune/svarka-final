@@ -33,12 +33,17 @@ hr {
 /* GALLERY */
 
 .gallery-container{
-  margin: 0px 50px 50px 50px;
+  margin: 50px 50px 50px 50px;
 }
 
 @media(max-width:680px){
   .gallery-container {
-    margin: 0px 0px 0px 0px;
+    margin: 40px 20px 0px 20px;
+  }
+}
+@media(max-width:600px){
+  .gallery-container {
+    margin: 120px 0px 0px 0px;
   }
 }
 

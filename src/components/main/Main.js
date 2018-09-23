@@ -10,6 +10,9 @@ import circus from "../../assets/images/circus.jpg";
 import avtobus from "../../assets/images/avtobus.jpeg";
 import diski from "../../assets/images/diskism.jpeg";
 
+import circus2 from "../../assets/images/4.jpg";
+
+
 import Footer from '../footer/Footer'
 
 const Main = () => (
@@ -36,15 +39,16 @@ const Main = () => (
     <div className="main-container">
       
         <div className="route-link firstcard">
-        <div class="hovereffect">
+       <Link to='/argon'> <div class="hovereffect">
           <div style={{ textDecoration: "none" }} to="/argon">
             <img className="rt-img" src={argon} alt="" />
             <div class="overlay">
               <h2 style={{ marginTop: "50px" }}>Аргонна зварка</h2>
             </div>
           </div>
-        </div>
-        <p className='first-link' style={{ textAlign: "center" }}>аргонне та полуавтоматичне зварювання.</p>
+        </div></Link>
+
+        <p className='first-link' style={{ textAlign: "center" }}>аргонне та напівавтоматичне зварювання.</p>
         <Link style={{textDecoration:"none"}} to="/argon">
           <a className='btn '  >
             <span>докладніше</span>
@@ -53,16 +57,17 @@ const Main = () => (
       </div>
 
       <div className="route-link ">
-        <div class="hovereffect">
+       <Link to='/circus'> <div class="hovereffect">
           <div style={{ textDecoration: "none" }} to="/argon">
-            <img className="rt-img" src={circus} alt="" />
+            <img className="rt-img" src={circus2} alt="" />
             <div class="overlay">
-              <h2 style={{ marginTop: "50px" }}>Циркове спорядження </h2>
+              <h2 style={{ marginTop: "50px" }}>Циркове та спортивне спорядження </h2>
             </div>
           </div>
-        </div>
+        </div></Link>
+
         <p style={{ textAlign: "center" }}>
-          Зварювання металоконструкцій для циркового споряждення.
+          Зварювання металоконструкцій для циркового та спортивного спорядження.
         </p>
         <Link style={{textDecoration:'none'}} to="/circus">
           <a className='btn'>
@@ -72,14 +77,15 @@ const Main = () => (
       </div>
 
       <div style={{ marginTop: "5%" }} className="route-link ">
-        <div class="hovereffect">
+       <Link to='/bus'> <div class="hovereffect">
           <div style={{ textDecoration: "none" }} to="/argon">
             <img className="rt-img" src={avtobus} alt="" />
             <div class="overlay">
-              <h2 style={{ marginTop: "50px" }}>Зварка автобусів</h2>
+              <h2 style={{ marginTop: "50px" }}>Зварювання автобусів</h2>
             </div>
           </div>
-        </div>
+        </div></Link>
+
         <p style={{ textAlign: "center" }}>Зварювання автобусних каркасів.</p>
         <Link style={{textDecoration:'none'}} to="/bus">
           <a className='btn'>
@@ -89,14 +95,15 @@ const Main = () => (
       </div>
 
       <div style={{ marginTop: "5%" }} className="route-link ">
-        <div class="hovereffect">
+       <Link to='/diski'> <div class="hovereffect">
           <div style={{ textDecoration: "none" }} to="/argon">
             <img className="rt-img" src={diski} alt="" />
             <div class="overlay">
-              <h2 style={{ marginTop: "50px" }}>реставрация дисків</h2>
+              <h2 style={{ marginTop: "50px" }}>реставрація дисків</h2>
             </div>
           </div>
-        </div>
+        </div></Link>
+        
         <p style={{ textAlign: "center" }}>Зварювання легкосплавних дисків.</p>
         <Link style={{textDecoration:'none'}} to="/diski">
           <a className='btn'>
